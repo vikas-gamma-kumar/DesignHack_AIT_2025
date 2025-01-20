@@ -851,12 +851,20 @@ tbody td {
   align-content: center;
   justify-content: center;
   margin-bottom: 30px;
+     transition: 0.3s ease-in;
 }
 
 #read-more .read a{
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
+}
+
+#read-more .read:hover {
+
+    background-color:#4586ff; 
+
+    
 }
 
 
